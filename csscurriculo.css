@@ -1,0 +1,78 @@
+#corpo {
+    background-color:  #B0C4DE;
+}
+
+#corpo h1{
+    color: black;
+    text-align:center;
+    font-size:50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.imagem{
+    height:20vh;
+    border-radius: 16px;
+}
+
+#corpo h2{
+    color: black;
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.resumo
+{
+    color:white;
+    font-size: 24px;
+    max-width: 50%;
+}
+
+.linhas div{
+    font-size: 24px;
+    max-width: 50%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.formacao div{
+    font-size: 24px;
+    max-width: 50%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#link a{
+    font-size: 24px;
+    max-width: 50%;
+    margin-bottom: 10px;
+    color:#a30dc8;
+}
+
+.tabela th{
+    text-align: center;
+    padding: 8px;
+    color: #fbff00;
+    font-size: 22px;
+}
+
+.tabela td{
+    text-align: center;
+    padding: 8px;
+}
+
+.tabela, th, td {
+    border: 2px solid rgb(175, 16, 175);
+    border-collapse:collapse;
+    border-radius: 5px;
+}
+
+.frase{
+    font-size: 30px;
+    color: red;
+    font-family: sans-serif;
+    padding: 10px;
+}

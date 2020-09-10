@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title>Contrate-me</title>
+        <link rel="stylesheet" type="text/css" href="contrate-me-css.css">
+
+    </head>
+    <body id="corpo">
+        <h1> Contrate-me!</h1>
+        <hr>
+        <center><img class="imagem" src="eu1.jpg"></center>
+        <h2> Porque deveria me contratar?</h2>
+        <p> <div class="linha">Sou uma pessoa bem flexível,consigo me adaptar e aprender bem rápido,</div>
+            <div class="linha">sou sociavel e nao tenho nenhuma mania ou TOC,gosto muito da área da</div>
+            <div class="linha">computação,garanto ser um profissional exemplar e bastante eficaz!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </p>
+        <hr>
+        <h3>Formulario de contratação</h3>
+        <div id="main">
+            <div class="itens"> 
+                <form>
+                    <div class="entradas">
+                        <label for="nome">Nome do interessado:</label>
+                        <input type="text" name="name"/>
+                    </div>
+                    <div class="entradas">
+                        <label for="empresa">Nome da empresa:</label>
+                        <input type="text" name="empresa"/>
+                    </div>
+                    <div class="entradas">
+                        <label for="salario">Salario:</label>
+                        <input type="number" name="salario" placeholder=" R$5.000,00" max="10000" min="3000"/>
+                    </div>
+                    <div class="entradas">
+                        <label for="trabalho">Tipos de trabalho:</label>
+                            <select class="selecao">
+                                <option value="0">Selecione o tipo</option>
+                                <option value="1">Presencial</option>
+                                <option value="2">Misto</option>
+                                <option value="3">Home Office</option>              
+                            </select>
+                    </div>
+                    <div class="entradas">
+                        <label for="radio">Tipos de vinculo:</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="CLT">
+                        <label for="CLT">CLT</label><br>
+                        <input type="radio" value="PJ">
+                        <label for="PJ">PJ</label><br>
+                        <input type="radio" value="Freelancer">
+                        <label for="Freelancer">Freelancer</label>
+                    </div>
+                    <div class="entradas">
+                        <label for="opcao">Data de inicio:</label>
+                        <input type="date" value="data"/>
+                    </div>
+                    <div class="checkbox">
+                        <label for="checkbox">Preciso dos seus serviços com urgencia! </label>
+                        <input type="checkbox"/>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit">Enviar</button>
+                     </div>
+                </form>
+                <div id="link">
+                    <p>
+                        <a href="./curriculo-vinicius-assuncao.html"> Clique aqui para acessar minha primeira página!</a>
+                   </p>
+            </div>
+        </div>
+    </body>
+</html>

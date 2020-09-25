@@ -1,0 +1,252 @@
+#corpo{
+    background-image: url("fundofoto.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: inline-block;
+    background-size: cover;
+    max-width: 100%;
+    margin:0px;
+}
+#corpo{
+    margin: 0;
+    background-color:black;
+}
+#estrutura{
+    margin: 0px;
+    background-color:#defbde;
+}
+.itemmenu{
+    font-size: 50px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Ranchers', cursive;
+}
+.menu{
+    background-color:rgb(62, 201, 27);
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 2px #010a01;
+}
+
+.banner{
+    width: 97.4%;
+    display: inline-block;
+    background-color: #078f3b;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 1px;
+    font-family: 'Ranchers', cursive;
+    text-decoration: underline;
+ 
+}
+.imagem{
+    height: 30vh;
+    border-radius: 80px;
+    margin: 0;
+}
+.img{
+    text-align: center;
+}
+.extra{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.conteudo{
+    margin-left:500px ;
+}
+.itens{
+    color: white;
+    display: inline-block;
+    width:100%;
+    font-size: 40px;
+}
+
+.rodape{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 98.5%;
+    background-color: rgb(97, 141, 8);
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.rodape1{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width:98.5%;
+    background-color: rgb(97, 141, 8);
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 190px;
+    
+}
+#body {
+    margin: 0px;
+    background-color:rgb(167, 248, 194);
+}
+
+.main{
+    text-align: center;
+    margin-top: 50px;
+}
+.main label{
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Ranchers', cursive;
+
+}
+.main input{
+    max-width: 100%;
+    width: 15%;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    padding: 6px;
+}
+.form{
+    font-size: 48px;
+    color: rgb(207, 10, 10);
+    text-align: center;
+    text-decoration: underline;
+}
+.checkbox{
+    display: inline-block;
+    max-width: 100%;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.buttons button {
+    
+    border-radius: 50px;
+    background: #f05555;
+    color:white;
+    width: 10%;
+    font-weight: bold;
+    margin-left: 850px;
+    border:0;
+    padding: 20px;
+    font-size: 20px;
+ }
+ button {
+    cursor: pointer
+   
+ }
+ .buttons button:hover {
+    background-color: rgb(241, 104, 104);
+    transition: 0.4s;
+}
+.col-33{
+    width: 33%;
+    display:inline-block;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 3px black;
+    border-radius: 10pc;
+}
+.imgedit{
+    display: inline-block;
+    max-width: 33.3%;
+    border-radius: 100px ;
+}
+.col-33 h3{
+    font-size: 24px;
+    max-width: 100%;
+    color: rgb(80, 161, 26);
+    font-family: 'Courier Prime', monospace;
+    text-decoration: underline;
+}
+@media screen and (max-width:590px){
+    .itemmenu{
+        font-size: 40px;
+        display: inline-block;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+    }
+    .banner{
+        width: 95.9%;
+    }
+    
+    .itens{
+        color: white;
+        display: inline-block;
+        width:100%;
+        max-width: 100%;
+        font-size: 25px;
+    }
+    .conteudo{
+        margin-left:0px ;
+        display: inline-block;
+        max-width:100% ;
+    }
+    .main input{
+        max-width: 100%;
+        width: 30%;
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 10px;
+        border-style: outset;
+        padding: 6px;
+    }
+    .rodape{
+        color: white;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        background-color: rgb(97, 141, 8);
+        padding: 15px;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    .checkbox{
+        display: inline-block;
+        max-width: 100%;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .buttons button {
+        border-radius: 50px;
+        background: #f05555;
+        color:white;
+        width: 30%;
+        font-weight: bold;
+        margin-left: 120px;
+        border:0;
+        padding: 20px;
+        font-size: 20px;
+     }
+     .rodape1{
+        color: white;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        background-color: rgb(97, 141, 8);
+        padding: 15px;
+        font-size: 12px;
+        margin-top: 190px;
+    }
+    .col-33{
+        width: 100%;
+        margin-left: 0px;
+        border: solid 1px black;
+        border-radius: 90vh;
+    }
+    .col-33 h3{
+        font-size: 15px;
+    }
+}
+
